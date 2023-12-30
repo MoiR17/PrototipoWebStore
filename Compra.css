@@ -1,0 +1,79 @@
+header {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #5f0909ad;
+  }
+
+  
+h1{
+    color: white;
+}
+
+.formulario{
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: black;
+    width: 800px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    margin-left: 8cm;
+}
+
+.formulario .nombre{
+    margin-left: 5cm;
+}
+
+.formulario .numero{
+    margin-left: 11cm;
+    margin-top: -1.7cm;
+}
+
+.formulario .fecha{
+    margin-left: 5cm;
+}
+
+.formulario .cvv{
+    margin-left: 11cm;
+    margin-top: -1.7cm;
+}
+
+button{
+    width: 100px;
+    margin-left: 9cm;
+    color: white;
+    background: black;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.formulario .iconos{
+    display: flex;
+    margin-left: 9cm;
+}

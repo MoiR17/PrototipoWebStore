@@ -1,0 +1,39 @@
+.pie{
+    background: rgba(24, 23, 23, 0.801);
+}
+
+.FooterHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.Correo{
+    display: flex;
+    flex-direction: column;
+}
+
+.pie h2{
+    color: white;
+}
+
+.pie a{
+    color: white;
+}
+
+.pie p{
+    color: white;
+}
+
+.copy{
+    background: rgba(0, 0, 0, 0.596);
+    color: rgb(147, 172, 194);
+    display: flex;
+}

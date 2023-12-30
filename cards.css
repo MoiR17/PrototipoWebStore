@@ -1,0 +1,36 @@
+.cards{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+  }
+
+.cards .card h4{
+    color: white;
+} 
+
+.cards .card p{
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.cards .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0,0,0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background: rgba(0, 0, 0, 0.397);
+}
+
+.cards .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.cards .card button{
+    color: aliceblue;
+    background: rgb(4, 4, 85);
+}

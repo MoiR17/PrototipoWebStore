@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="Compra.css">
+
+    <style>
+        body{
+            background-image: url("Fondo.jpg");
+            background-size: cover;
+        }
+    </style>
+    <title>Compra</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="catalogo.html">Catalogo</a></li>
+            <li><a href="#">Proximos</a></li>
+         </ul>
+        </nav>
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>Compra del video juego</h1>
+    <br>
+
+    <div class="formulario">
+        <form action="" method="post">
+        <div class="iconos">
+            <span><img src="tarjeta-de-credito.png" alt=""></span>
+            <span><img src="Credito.png" alt=""></span>
+            <span><img src="visa.png" alt=""></span>
+        </div>
+
+        <div class="nombre">   
+            <label for="nombre">Nombre en la tarjeta:</label>
+            <br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+        </div>    
+        <div class="numero">
+            <label for="numero">Número de tarjeta:</label>
+            <br>
+            <input type="text" id="numero" name="numero" required><br><br>
+        </div> 
+        <div class="fecha">
+            <label for="expiracion">Fecha de expiración:</label>
+            <br>
+            <input type="text" id="expiracion" name="expiracion"  min="2023-05" required><br><br>
+        </div> 
+        <div class="cvv">
+            <label for="cvv">CVV:</label>
+            <br>
+            <input type="text" id="cvv" name="cvv" pattern="[0-9]{3,4}" required><br><br>
+        </div>
+
+        <button onclick="funcion()">Comprar</button>
+
+        <Script>
+          function funcion(){
+            alert("Tu compra ha sido exitosa")
+            window.location.href = "catalogo.html";
+          }
+        </Script>
+        
+        </form>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <footer class="pie">
+        <div class="FooterHeader">
+          <div class="logo">
+            <h1>Compra video juegos online</h1>
+          </div>
+  
+          <div class="redes">
+            <span><img src="instagram.png" alt=""></span>
+            <span><img src="gorjeo.png" alt=""></span>
+            <span><img src="facebook.png" alt=""></span>
+          </div>
+        </div>
+        <hr> 
+  
+        <div class="section">
+          <div class="Correo">
+            <h2>correo</h2>
+            <a href="#">moiso1236@gmail.com</a>
+            <a href="#">James45@gmail.com</a>
+          </div>
+          
+          <div class="numeros">
+            <h2>Numeros</h2>
+            <p>4569-8877</p>
+            <p>7756-4233</p>
+          </div>
+  
+          <div class="Ubicacion">
+            <h2>Ubicacion</h2>
+            <a href="#">Costa Rica, Desamparados</a>
+          </div>
+        </div>
+  
+        <div class="copy">
+          <h3>Copyright© 2023</h3>
+        </div>
+  
+      </footer>
+    
+</body>
+</html>
